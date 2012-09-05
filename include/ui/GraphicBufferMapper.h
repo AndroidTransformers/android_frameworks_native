@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2007 The Android Open Source Project
+ *  Copyright (C) 2007 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -48,7 +48,7 @@ public:
     status_t unlock(buffer_handle_t handle);
 
 #ifdef EXYNOS4210_ENHANCEMENTS
-	status_t getphys(buffer_handle_t handle, void** paddr);
+    status_t getphys(buffer_handle_t handle, void** paddr);
 #endif
 
     // dumps information about the mapping of this handle
